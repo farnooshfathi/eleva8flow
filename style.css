@@ -543,10 +543,11 @@ body {
 }
 
 .roi-left h2 {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 800;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   color: var(--text-dark);
+  line-height: 1.2;
 }
 
 .roi-benefits {
@@ -555,20 +556,17 @@ body {
 
 .roi-benefits li {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-  font-size: 17px;
-  color: var(--text-dark);
-  padding: 12px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  cursor: pointer;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #4a5568;
+  line-height: 1.6;
+  font-weight: 400;
 }
 
 .roi-benefits li:hover {
-  background: rgba(91, 141, 238, 0.05);
-  transform: translateX(8px);
+  color: var(--text-dark);
 }
 
 .check-circle {
@@ -611,21 +609,25 @@ body {
 .roi-item {
   display: flex;
   justify-content: space-between;
-  padding: 16px 0;
-  border-bottom: 1px solid var(--border-color);
-  font-size: 15px;
+  padding: 18px 0;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 16px;
+  color: #4a5568;
 }
 
 .roi-item.total {
-  font-weight: 700;
-  border-top: 2px solid var(--border-color);
-  border-bottom: 2px solid var(--border-color);
-  margin-top: 8px;
+  font-weight: 600;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  margin-top: 12px;
+  padding: 20px 0;
 }
 
 .roi-item.ai {
   font-weight: 600;
-  border-bottom: none;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 20px 0;
+  margin-bottom: 24px;
 }
 
 .roi-amount.red {
@@ -637,18 +639,12 @@ body {
 }
 
 .roi-savings {
-  background: linear-gradient(135deg, var(--teal-primary), var(--blue-primary));
-  padding: 32px;
+  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
+  padding: 36px 32px;
   border-radius: 16px;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.roi-savings:hover {
-  transform: scale(1.05) rotate(-1deg);
-  box-shadow: 0 12px 32px rgba(91, 141, 238, 0.3);
 }
 
 .savings-label {
@@ -666,12 +662,12 @@ body {
 
 .roi-button {
   width: 100%;
-  background: var(--blue-primary);
+  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
   color: white;
   border: none;
-  padding: 16px;
-  border-radius: 10px;
-  font-size: 16px;
+  padding: 18px;
+  border-radius: 12px;
+  font-size: 17px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -682,7 +678,7 @@ body {
 }
 
 .roi-button:hover {
-  background: var(--blue-dark);
+  background: linear-gradient(135deg, #4A7CD7, #6A93E3);
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(91, 141, 238, 0.3);
 }
