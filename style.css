@@ -732,51 +732,60 @@ body {
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .industry-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 
-.industry-card.teal-gradient {
+.industry-header {
+  padding: 32px 32px 24px;
+}
+
+.industry-header.teal-gradient {
   background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
 }
 
-.industry-card.blue-gradient {
+.industry-header.blue-gradient {
   background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
 }
 
 .industry-icon {
-  width: 64px;
-  height: 64px;
+  width: 56px;
+  height: 56px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 32px 32px 20px;
+  margin-bottom: 16px;
+  backdrop-filter: blur(10px);
 }
 
-.industry-card h3 {
-  font-size: 24px;
+.industry-header h3 {
+  font-size: 22px;
   font-weight: 700;
   color: white;
-  margin: 0 32px 12px;
+  margin: 0;
 }
 
-.industry-card > p {
-  color: rgba(255, 255, 255, 0.95);
+.industry-body {
+  padding: 24px 32px 32px;
+  background: white;
+}
+
+.industry-body p {
+  color: var(--text-medium);
   line-height: 1.6;
   font-size: 15px;
-  margin: 0 32px 24px;
+  margin-bottom: 24px;
 }
 
 .industry-features {
   list-style: none;
-  background: white;
-  padding: 24px 32px 32px;
+  padding: 0;
 }
 
 .industry-features li {
