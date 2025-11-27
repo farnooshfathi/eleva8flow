@@ -497,11 +497,11 @@ body {
 }
 
 .feature-icon.light-blue {
-  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
+  background: linear-gradient(135deg, #60A5FA, #7BA4F4);
 }
 
 .feature-icon.royal-blue {
-  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
+  background: linear-gradient(135deg, #3E5DAA, #5B8DEE);
 }
 
 .feature-icon.teal {
@@ -509,7 +509,7 @@ body {
 }
 
 .feature-icon.dark-blue {
-  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
+  background: linear-gradient(135deg, #2D3E7C, #3E5DAA);
 }
 
 .feature-card h3 {
