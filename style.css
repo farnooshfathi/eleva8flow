@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --teal-primary: #5DCCB8;
   --teal-dark: #4F9BA8;
@@ -54,6 +58,12 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.logo-container:hover {
+  transform: scale(1.05);
 }
 
 .logo-icon {
@@ -93,11 +103,15 @@ body {
   color: var(--text-medium);
   font-weight: 500;
   font-size: 15px;
-  transition: color 0.2s ease;
+  transition: all 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 6px;
 }
 
 .nav-menu a:hover {
   color: var(--blue-primary);
+  background: rgba(91, 141, 238, 0.05);
+  transform: translateY(-2px);
 }
 
 .contact-button {
@@ -262,10 +276,16 @@ body {
   gap: 16px;
   align-items: flex-start;
   margin-bottom: 24px;
+  transition: all 0.3s ease;
 }
 
 .phone-icon {
   flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.demo-header:hover .phone-icon {
+  transform: scale(1.1) rotate(5deg);
 }
 
 .demo-title h3 {
@@ -333,7 +353,7 @@ body {
 }
 
 .demo-button:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.02);
   box-shadow: 0 8px 20px rgba(93, 204, 184, 0.4);
 }
 
@@ -348,6 +368,20 @@ body {
 
 .stat {
   text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.stat:hover {
+  transform: translateY(-5px);
+  background: rgba(91, 141, 238, 0.05);
+}
+
+.stat:hover .stat-number {
+  color: var(--blue-primary);
+  transform: scale(1.1);
 }
 
 .stat-number {
@@ -355,6 +389,7 @@ body {
   font-weight: 800;
   color: var(--text-dark);
   margin-bottom: 8px;
+  transition: all 0.3s ease;
 }
 
 .stat-label {
@@ -422,6 +457,11 @@ body {
 .feature-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  border-color: var(--blue-primary);
+}
+
+.feature-card:hover .feature-icon {
+  transform: scale(1.1) rotate(5deg);
 }
 
 .feature-icon {
@@ -432,6 +472,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  transition: all 0.3s ease;
 }
 
 .feature-icon.blue {
@@ -491,6 +532,15 @@ body {
   margin-bottom: 16px;
   font-size: 17px;
   color: var(--text-dark);
+  padding: 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.roi-benefits li:hover {
+  background: rgba(91, 141, 238, 0.05);
+  transform: translateX(8px);
 }
 
 .check-circle {
@@ -564,6 +614,13 @@ body {
   border-radius: 16px;
   text-align: center;
   margin-bottom: 24px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.roi-savings:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 12px 32px rgba(91, 141, 238, 0.3);
 }
 
 .savings-label {
@@ -615,6 +672,17 @@ body {
 
 .step-card {
   text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.step-card:hover {
+  transform: translateY(-8px);
+}
+
+.step-card:hover .step-icon {
+  transform: scale(1.1);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
 }
 
 .step-icon-wrapper {
@@ -650,6 +718,7 @@ body {
   align-items: center;
   justify-content: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .step-icon.teal {
@@ -755,10 +824,16 @@ body {
 .industry-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.industry-card:hover .industry-header {
+  transform: scale(1.02);
 }
 
 .industry-header {
   padding: 32px 32px 24px;
+  transition: all 0.3s ease;
 }
 
 .industry-header.teal-gradient {
@@ -881,6 +956,11 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 auto 24px;
+  transition: all 0.3s ease;
+}
+
+.pricing-card:hover .pricing-icon {
+  transform: scale(1.15) rotate(-5deg);
 }
 
 .pricing-icon.blue {
@@ -1011,6 +1091,13 @@ body {
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
 
 .quote-icon {
@@ -1135,6 +1222,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.calendar-embed:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
 }
 
 .calendar-placeholder {
@@ -1182,6 +1274,19 @@ body {
 
 .faq-item {
   margin-bottom: 32px;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.faq-item:hover {
+  background: rgba(91, 141, 238, 0.05);
+  transform: translateX(8px);
+}
+
+.faq-item:hover h3 {
+  color: var(--blue-primary);
 }
 
 .faq-item h3 {
@@ -1202,6 +1307,15 @@ body {
   align-items: flex-start;
   gap: 20px;
   margin-bottom: 32px;
+  padding: 16px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-method:hover {
+  background: rgba(91, 141, 238, 0.05);
+  transform: translateX(8px);
 }
 
 .contact-icon {
@@ -1287,7 +1401,7 @@ body {
 }
 
 .contact-btn.primary:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.05);
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
 }
 
@@ -1299,6 +1413,7 @@ body {
 
 .contact-btn.secondary:hover {
   background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px) scale(1.05);
 }
 
 .footer {
