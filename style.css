@@ -723,38 +723,68 @@ body {
 
 .step-number {
   position: absolute;
-  top: -8px;
-  right: calc(50% - 48px);
-  background: var(--dark-blue);
+  top: -12px;
+  right: calc(50% - 60px);
+  background: #2D3E7C;
   color: white;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 18px;
+  box-shadow: 0 4px 12px rgba(45, 62, 124, 0.3);
+  z-index: 10;
 }
 
 .step-icon {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   transition: all 0.3s ease;
+  position: relative;
+  border: 6px solid transparent;
+}
+
+.step-icon::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: 50%;
+  padding: 6px;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 }
 
 .step-icon.teal {
-  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
+  --gradient-start: #5DCCB8;
+  --gradient-end: #6ED4C4;
+  background: white;
+}
+
+.step-icon.teal svg {
+  color: #5DCCB8;
 }
 
 .step-icon.blue {
-  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
+  --gradient-start: #5B8DEE;
+  --gradient-end: #7BA4F4;
+  background: white;
+}
+
+.step-icon.blue svg {
+  color: #5B8DEE;
 }
 
 .step-card h3 {
