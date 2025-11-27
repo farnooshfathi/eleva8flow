@@ -681,12 +681,10 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  text-align: center;
   text-decoration: none;
-  margin: 0 auto;
-  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .roi-button:hover {
