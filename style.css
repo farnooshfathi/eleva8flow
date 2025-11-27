@@ -1069,6 +1069,63 @@ body {
   color: var(--text-light);
 }
 
+.demo-booking {
+  padding: 100px 32px;
+  background: var(--bg-light);
+}
+
+.booking-container {
+  max-width: 900px;
+  margin: 60px auto 0;
+  text-align: center;
+}
+
+.booking-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.booking-subtitle {
+  font-size: 16px;
+  color: var(--text-medium);
+  margin-bottom: 40px;
+}
+
+.calendar-embed {
+  background: white;
+  border-radius: 20px;
+  padding: 60px 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar-placeholder {
+  text-align: center;
+  color: var(--text-medium);
+}
+
+.calendar-placeholder svg {
+  margin-bottom: 24px;
+  opacity: 0.6;
+}
+
+.calendar-placeholder p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: var(--text-dark);
+}
+
+.calendar-placeholder .placeholder-note {
+  font-size: 14px;
+  color: var(--text-light);
+  font-style: italic;
+}
+
 .contact-section {
   padding: 100px 32px;
   background: white;
