@@ -46,9 +46,9 @@ body {
 }
 
 .nav-container {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -135,12 +135,12 @@ body {
 }
 
 .hero {
-  padding: 120px 32px 60px;
+  padding: 120px 64px 60px;
   background: linear-gradient(to bottom, #ffffff 0%, #f8f9fb 100%);
 }
 
 .hero-container {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -358,12 +358,12 @@ body {
 }
 
 .hero-stats {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 60px auto 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  padding: 0 32px;
+  padding: 0 64px;
 }
 
 .stat {
@@ -398,13 +398,14 @@ body {
 }
 
 .features {
-  padding: 100px 32px;
+  padding: 100px 64px;
   background: var(--bg-white);
 }
 
 .section-container {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 64px;
   text-align: center;
 }
 
@@ -501,13 +502,14 @@ body {
 }
 
 .roi-section {
-  padding: 100px 32px;
+  padding: 100px 64px;
   background: #E8F1FA;
 }
 
 .roi-container {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 64px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
@@ -660,7 +662,7 @@ body {
 }
 
 .how-it-works {
-  padding: 100px 32px;
+  padding: 100px 64px;
   background: white;
 }
 
@@ -743,7 +745,7 @@ body {
 }
 
 .consultation-cta {
-  padding: 80px 32px;
+  padding: 80px 64px;
   background: linear-gradient(135deg, #3E5DAA, #5B8DEE);
   text-align: center;
 }
@@ -803,7 +805,7 @@ body {
 }
 
 .industries {
-  padding: 100px 32px;
+  padding: 100px 64px;
   background: var(--bg-light);
 }
 
@@ -901,7 +903,7 @@ body {
 }
 
 .pricing {
-  padding: 100px 32px;
+  padding: 100px 64px;
   background: white;
 }
 
@@ -909,7 +911,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 32px;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -1074,7 +1076,7 @@ body {
 }
 
 .testimonials {
-  padding: 100px 32px;
+  padding: 100px 64px;
   background: var(--bg-light);
 }
 
@@ -1190,7 +1192,7 @@ body {
 }
 
 .demo-booking {
-  padding: 100px 32px;
+  padding: 100px 64px;
   background: var(--bg-light);
 }
 
@@ -1253,13 +1255,14 @@ body {
 }
 
 .contact-section {
-  padding: 100px 32px;
+  padding: 100px 64px;
   background: white;
 }
 
 .contact-container {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 64px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
@@ -1420,12 +1423,13 @@ body {
 .footer {
   background: var(--bg-light);
   color: var(--text-dark);
-  padding: 60px 32px 32px;
+  padding: 60px 64px 32px;
 }
 
 .footer-main {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 64px;
   display: grid;
   grid-template-columns: 1.2fr 2fr;
   gap: 80px;
@@ -1509,9 +1513,9 @@ body {
 }
 
 .footer-bottom {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding-top: 24px;
+  padding: 24px 64px 0;
   border-top: 1px solid var(--border-color);
   display: flex;
   justify-content: space-between;
