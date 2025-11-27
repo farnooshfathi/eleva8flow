@@ -1148,41 +1148,44 @@ body {
 
 .testimonial-card {
   background: white;
-  padding: 32px;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 40px 36px 32px;
+  border-radius: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
-  border: none;
+  border: 1px solid #f0f0f0;
 }
 
 .testimonial-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 .quote-icon {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 48px;
-  font-weight: 700;
-  color: #f0f0f0;
-  opacity: 0.5;
+  top: 24px;
+  left: 28px;
+  font-size: 72px;
+  font-weight: 400;
+  color: #E8F5F5;
+  opacity: 1;
+  font-family: Georgia, serif;
+  line-height: 0.8;
 }
 
 .stars {
   display: flex;
-  gap: 4px;
-  margin-bottom: 20px;
+  gap: 6px;
+  margin-bottom: 24px;
 }
 
 .testimonial-text {
-  font-size: 16px;
+  font-size: 17px;
   color: var(--text-dark);
   line-height: 1.7;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
+  font-weight: 400;
 }
 
 .testimonial-author {
@@ -1191,18 +1194,26 @@ body {
   gap: 16px;
 }
 
-.author-avatar {
-  width: 56px;
-  height: 56px;
+.author-photo {
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--teal-primary), var(--blue-primary));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: 700;
-  font-size: 18px;
+  object-fit: cover;
   flex-shrink: 0;
+  border: 3px solid #f0f0f0;
+  position: relative;
+}
+
+.author-photo::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 14px;
+  height: 14px;
+  background: #5DCCB8;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
 .author-info {
@@ -1210,20 +1221,21 @@ body {
 }
 
 .author-name {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--text-dark);
   margin-bottom: 4px;
 }
 
 .author-title {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-medium);
   margin-bottom: 2px;
+  font-weight: 500;
 }
 
 .author-company {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-light);
 }
 
