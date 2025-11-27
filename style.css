@@ -1000,6 +1000,11 @@ body {
 }
 
 .pricing-card.popular {
+  border-color: var(--border-color);
+  box-shadow: none;
+}
+
+.pricing-card.selected {
   border-color: var(--blue-primary);
   box-shadow: 0 8px 32px rgba(91, 141, 238, 0.15);
 }
