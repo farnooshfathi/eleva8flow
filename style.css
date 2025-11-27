@@ -580,58 +580,65 @@ body {
 
 .roi-calculator {
   background: white;
-  padding: 40px;
-  border-radius: 20px;
+  padding: 48px 44px;
+  border-radius: 24px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-  max-width: 500px;
+  max-width: 520px;
   width: 100%;
 }
 
 .roi-calculator h3 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 800;
-  color: var(--text-dark);
-  margin-bottom: 8px;
+  color: #1a202c;
+  margin-bottom: 12px;
   text-align: center;
+  letter-spacing: -0.5px;
 }
 
 .roi-subtitle {
   text-align: center;
-  color: var(--text-medium);
-  margin-bottom: 32px;
-  font-size: 16px;
+  color: #718096;
+  margin-bottom: 40px;
+  font-size: 17px;
 }
 
 .roi-breakdown {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .roi-item {
   display: flex;
   justify-content: space-between;
-  padding: 18px 0;
-  border-bottom: 1px solid #e8e8e8;
-  font-size: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+  font-size: 17px;
   color: #4a5568;
 }
 
 .roi-item.total {
-  font-weight: 600;
-  border-top: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
-  margin-top: 12px;
-  padding: 20px 0;
+  font-weight: 700;
+  border-top: 1px solid rgba(226, 232, 240, 0.6);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+  margin-top: 16px;
+  padding: 22px 0;
+  color: #1a202c;
 }
 
 .roi-item.ai {
-  font-weight: 600;
-  border-bottom: 1px solid #e8e8e8;
-  padding: 20px 0;
-  margin-bottom: 24px;
+  font-weight: 700;
+  border-bottom: none;
+  padding: 22px 0;
+  margin-bottom: 32px;
+  color: #1a202c;
+}
+
+.roi-amount {
+  font-weight: 700;
 }
 
 .roi-amount.red {
-  color: #ef4444;
+  color: #e53e3e;
 }
 
 .roi-amount.green {
@@ -640,7 +647,7 @@ body {
 
 .roi-savings {
   background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
-  padding: 36px 32px;
+  padding: 40px 32px;
   border-radius: 16px;
   text-align: center;
   margin-bottom: 20px;
@@ -649,15 +656,17 @@ body {
 
 .savings-label {
   color: white;
-  font-size: 16px;
-  margin-bottom: 8px;
-  opacity: 0.95;
+  font-size: 18px;
+  margin-bottom: 12px;
+  opacity: 1;
+  font-weight: 500;
 }
 
 .savings-amount {
   color: white;
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 800;
+  letter-spacing: -1px;
 }
 
 .roi-button {
@@ -665,9 +674,9 @@ body {
   background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
   color: white;
   border: none;
-  padding: 18px;
-  border-radius: 12px;
-  font-size: 17px;
+  padding: 20px 32px;
+  border-radius: 16px;
+  font-size: 18px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
