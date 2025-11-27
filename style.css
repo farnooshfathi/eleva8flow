@@ -1109,17 +1109,16 @@ body {
   background: white;
   padding: 32px;
   border-radius: 16px;
-  box-shadow: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
-  border: 1px solid var(--border-color);
+  border: none;
 }
 
 .testimonial-card:hover {
   transform: translateY(-6px);
-  box-shadow: none;
-  border-color: var(--blue-primary);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 
 .quote-icon {
