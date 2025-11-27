@@ -1110,18 +1110,18 @@ body {
 
 .pricing-button {
   width: 100%;
+  max-width: 100%;
   padding: 16px;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin: 0 auto;
+  display: block;
   text-align: center;
+  text-decoration: none;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .pricing-button.primary {
