@@ -909,7 +909,7 @@ body {
 
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 32px;
   max-width: 1200px;
   margin: 0 auto;
@@ -1091,17 +1091,15 @@ body {
   background: white;
   padding: 32px;
   border-radius: 16px;
-  box-shadow: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
-  border: 1px solid var(--border-color);
 }
 
 .testimonial-card:hover {
   transform: translateY(-6px);
-  box-shadow: none;
-  border-color: var(--blue-primary);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
 
 .quote-icon {
