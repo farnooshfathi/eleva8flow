@@ -398,17 +398,17 @@ body {
 }
 
 .feature-card {
-  background: var(--bg-light);
+  background: white;
   padding: 32px;
   border-radius: 16px;
   transition: all 0.3s ease;
   border: 2px solid transparent;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .feature-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
-  border-color: var(--teal-primary);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
 
 .feature-icon {
@@ -422,15 +422,15 @@ body {
 }
 
 .feature-icon.blue {
-  background: var(--blue-primary);
+  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
 }
 
 .feature-icon.teal {
-  background: var(--teal-primary);
+  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
 }
 
 .feature-icon.dark-blue {
-  background: var(--dark-blue);
+  background: linear-gradient(135deg, #3E5DAA, #5B8DEE);
 }
 
 .feature-card h3 {
@@ -636,11 +636,11 @@ body {
 }
 
 .step-icon.teal {
-  background: var(--teal-primary);
+  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
 }
 
 .step-icon.blue {
-  background: var(--blue-primary);
+  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
 }
 
 .step-card h3 {
@@ -856,15 +856,15 @@ body {
 }
 
 .pricing-icon.blue {
-  background: var(--blue-primary);
+  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
 }
 
 .pricing-icon.teal {
-  background: var(--teal-primary);
+  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
 }
 
 .pricing-icon.dark-blue {
-  background: var(--dark-blue);
+  background: linear-gradient(135deg, #3E5DAA, #5B8DEE);
 }
 
 .pricing-card h3 {
@@ -1125,11 +1125,11 @@ body {
 }
 
 .contact-icon.email {
-  background: var(--teal-primary);
+  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
 }
 
 .contact-icon.phone {
-  background: var(--blue-primary);
+  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
 }
 
 .contact-details h3 {
