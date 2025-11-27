@@ -468,6 +468,7 @@ body {
   transition: all 0.3s ease;
   border: 2px solid transparent;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
 }
 
 .feature-card:hover {
@@ -495,25 +496,35 @@ body {
   background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
 }
 
+.feature-icon.light-blue {
+  background: linear-gradient(135deg, #60A5FA, #3B82F6);
+}
+
+.feature-icon.royal-blue {
+  background: linear-gradient(135deg, #4F46E5, #6366F1);
+}
+
 .feature-icon.teal {
-  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
+  background: linear-gradient(135deg, #14B8A6, #2DD4BF);
 }
 
 .feature-icon.dark-blue {
-  background: linear-gradient(135deg, #3E5DAA, #5B8DEE);
+  background: linear-gradient(135deg, #334155, #475569);
 }
 
 .feature-card h3 {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
   color: var(--text-dark);
+  text-align: left;
 }
 
 .feature-card p {
   color: var(--text-medium);
   line-height: 1.6;
-  font-size: 14px;
+  font-size: 15px;
+  text-align: left;
 }
 
 .roi-section {
