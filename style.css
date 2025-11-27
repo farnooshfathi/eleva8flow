@@ -353,6 +353,7 @@ body {
   justify-content: center;
   gap: 8px;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .demo-button:hover {
