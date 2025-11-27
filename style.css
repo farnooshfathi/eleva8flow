@@ -110,6 +110,8 @@ body {
   font-size: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .contact-button:hover {
