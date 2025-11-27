@@ -497,19 +497,19 @@ body {
 }
 
 .feature-icon.light-blue {
-  background: linear-gradient(135deg, #60A5FA, #3B82F6);
+  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
 }
 
 .feature-icon.royal-blue {
-  background: linear-gradient(135deg, #4F46E5, #6366F1);
+  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
 }
 
 .feature-icon.teal {
-  background: linear-gradient(135deg, #14B8A6, #2DD4BF);
+  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
 }
 
 .feature-icon.dark-blue {
-  background: linear-gradient(135deg, #334155, #475569);
+  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
 }
 
 .feature-card h3 {
