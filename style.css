@@ -816,6 +816,7 @@ body {
 }
 
 .industry-card {
+  background: white;
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -833,16 +834,16 @@ body {
 }
 
 .industry-header {
-  padding: 32px 32px 120px;
+  padding: 32px 32px 24px;
   transition: all 0.3s ease;
 }
 
 .industry-header.teal-gradient {
-  background: linear-gradient(135deg, #5DCCB8 0%, #6ED4C4 50%, #5DB8CC 100%);
+  background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
 }
 
 .industry-header.blue-gradient {
-  background: linear-gradient(135deg, #5B8DEE 0%, #5DB8CC 100%);
+  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
 }
 
 .industry-icon {
@@ -867,9 +868,6 @@ body {
 .industry-body {
   padding: 24px 32px 32px;
   background: white;
-  margin-top: -96px;
-  border-radius: 12px;
-  position: relative;
 }
 
 .industry-body p {
@@ -1093,13 +1091,17 @@ body {
   background: white;
   padding: 32px;
   border-radius: 16px;
+  box-shadow: none;
   position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
+  border: 1px solid var(--border-color);
 }
 
 .testimonial-card:hover {
   transform: translateY(-6px);
+  box-shadow: none;
+  border-color: var(--blue-primary);
 }
 
 .quote-icon {
