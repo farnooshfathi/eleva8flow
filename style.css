@@ -82,7 +82,11 @@ body {
   letter-spacing: 0.5px;
 }
 
-.logo-highlight {
+.logo-elev8 {
+  color: var(--dark-blue);
+}
+
+.logo-flow {
   color: var(--teal-primary);
 }
 
