@@ -60,6 +60,12 @@ body {
   transform: scale(1.05);
 }
 
+.logo-image {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+}
+
 .logo-icon {
   flex-shrink: 0;
 }
