@@ -650,8 +650,9 @@ body {
   padding: 40px 32px;
   border-radius: 16px;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
   transition: all 0.3s ease;
+  max-width: 100%;
 }
 
 .savings-label {
@@ -684,6 +685,8 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .roi-button:hover {
@@ -897,6 +900,7 @@ body {
 .industry-header {
   padding: 32px 32px 24px;
   transition: all 0.3s ease;
+  text-align: left;
 }
 
 .industry-header.teal-gradient {
@@ -929,6 +933,7 @@ body {
 .industry-body {
   padding: 24px 32px 32px;
   background: white;
+  text-align: left;
 }
 
 .industry-body p {
@@ -936,6 +941,7 @@ body {
   line-height: 1.6;
   font-size: 15px;
   margin-bottom: 24px;
+  text-align: left;
 }
 
 .industry-features {
