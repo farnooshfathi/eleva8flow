@@ -919,12 +919,28 @@ body {
   text-align: left;
 }
 
-.industry-header.teal-gradient {
+.industry-header.teal-cyan-gradient {
   background: linear-gradient(135deg, #5DCCB8, #6ED4C4);
 }
 
-.industry-header.blue-gradient {
-  background: linear-gradient(135deg, #5B8DEE, #7BA4F4);
+.industry-header.blue-cyan-gradient {
+  background: linear-gradient(135deg, #5B8DEE, #6ED4C4);
+}
+
+.industry-header.cyan-teal-gradient {
+  background: linear-gradient(135deg, #6ED4C4, #5DCCB8);
+}
+
+.industry-header.teal-blue-gradient {
+  background: linear-gradient(135deg, #5DCCB8, #5B8DEE);
+}
+
+.industry-header.navy-blue-gradient {
+  background: linear-gradient(135deg, #4A5FBF, #5B8DEE);
+}
+
+.industry-header.blue-teal-gradient {
+  background: linear-gradient(135deg, #5B8DEE, #5DCCB8);
 }
 
 .industry-icon {
