@@ -917,6 +917,8 @@ body {
   padding: 32px 32px 24px;
   transition: all 0.3s ease;
   text-align: left;
+  border-radius: 16px 16px 0 0;
+  position: relative;
 }
 
 .industry-header.teal-cyan-gradient {
@@ -944,19 +946,24 @@ body {
 }
 
 .industry-icon {
-  width: 56px;
-  height: 56px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   backdrop-filter: blur(10px);
 }
 
+.industry-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
 .industry-header h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: white;
   margin: 0;
