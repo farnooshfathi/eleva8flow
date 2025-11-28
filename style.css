@@ -624,14 +624,16 @@ body {
 
 .roi-divider {
   height: 1px;
-  background: rgba(226, 232, 240, 0.6);
+  background: #e5e7eb;
   margin: 0;
+  width: 100%;
 }
 
 .roi-divider-thick {
-  height: 2px;
-  background: rgba(203, 213, 224, 0.8);
-  margin: 20px 0;
+  height: 3px;
+  background: #d1d5db;
+  margin: 0;
+  width: 100%;
 }
 
 .roi-item.total {
