@@ -617,11 +617,26 @@ body {
   color: #4a5568;
 }
 
+.roi-item.no-border {
+  border-bottom: none;
+  padding-bottom: 20px;
+}
+
+.roi-divider {
+  height: 1px;
+  background: rgba(226, 232, 240, 0.6);
+  margin: 0;
+}
+
+.roi-divider-thick {
+  height: 2px;
+  background: rgba(203, 213, 224, 0.8);
+  margin: 20px 0;
+}
+
 .roi-item.total {
   font-weight: 700;
-  border-top: 1px solid rgba(226, 232, 240, 0.6);
-  border-bottom: 1px solid rgba(226, 232, 240, 0.6);
-  margin-top: 16px;
+  border-bottom: none;
   padding: 22px 0;
   color: #1a202c;
 }
