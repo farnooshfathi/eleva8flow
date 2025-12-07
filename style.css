@@ -559,19 +559,19 @@ button, input, textarea, select {
 }
 
 .features {
-  padding: 60px 24px;
+  padding: 60px 0;
   background: var(--bg-white);
 }
 
 @media (min-width: 768px) {
   .features {
-    padding: 80px 40px;
+    padding: 80px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .features {
-    padding: 100px 64px;
+    padding: 100px 0;
   }
 }
 
@@ -730,19 +730,19 @@ button, input, textarea, select {
 }
 
 .roi-section {
-  padding: 60px 24px;
+  padding: 60px 0;
   background: #E8F1FA;
 }
 
 @media (min-width: 768px) {
   .roi-section {
-    padding: 80px 40px;
+    padding: 80px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .roi-section {
-    padding: 100px 64px;
+    padding: 100px 0;
   }
 }
 
@@ -932,19 +932,19 @@ button, input, textarea, select {
 }
 
 .how-it-works {
-  padding: 60px 24px;
+  padding: 60px 0;
   background: white;
 }
 
 @media (min-width: 768px) {
   .how-it-works {
-    padding: 80px 40px;
+    padding: 80px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .how-it-works {
-    padding: 100px 64px;
+    padding: 100px 0;
   }
 }
 
@@ -1143,19 +1143,19 @@ button, input, textarea, select {
 }
 
 .industries {
-  padding: 60px 24px;
+  padding: 60px 0;
   background: var(--bg-light);
 }
 
 @media (min-width: 768px) {
   .industries {
-    padding: 80px 40px;
+    padding: 80px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .industries {
-    padding: 100px 64px;
+    padding: 100px 0;
   }
 }
 
@@ -1292,19 +1292,19 @@ button, input, textarea, select {
 }
 
 .pricing {
-  padding: 60px 24px;
+  padding: 60px 0;
   background: white;
 }
 
 @media (min-width: 768px) {
   .pricing {
-    padding: 80px 40px;
+    padding: 80px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .pricing {
-    padding: 100px 64px;
+    padding: 100px 0;
   }
 }
 
@@ -1500,19 +1500,19 @@ button, input, textarea, select {
 }
 
 .testimonials {
-  padding: 60px 24px;
+  padding: 60px 0;
   background: var(--bg-light);
 }
 
 @media (min-width: 768px) {
   .testimonials {
-    padding: 80px 40px;
+    padding: 80px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .testimonials {
-    padding: 100px 64px;
+    padding: 100px 0;
   }
 }
 
@@ -1742,19 +1742,19 @@ button, input, textarea, select {
 }
 
 .contact-section {
-  padding: 60px 24px;
+  padding: 60px 0;
   background: white;
 }
 
 @media (min-width: 768px) {
   .contact-section {
-    padding: 80px 40px;
+    padding: 80px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .contact-section {
-    padding: 100px 64px;
+    padding: 100px 0;
   }
 }
 
@@ -1931,18 +1931,18 @@ button, input, textarea, select {
 .footer {
   background: var(--bg-light);
   color: var(--text-dark);
-  padding: 40px 24px 32px;
+  padding: 40px 0 32px;
 }
 
 @media (min-width: 768px) {
   .footer {
-    padding: 50px 40px 32px;
+    padding: 50px 0 32px;
   }
 }
 
 @media (min-width: 1024px) {
   .footer {
-    padding: 60px 64px 32px;
+    padding: 60px 0 32px;
   }
 }
 
