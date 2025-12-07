@@ -120,6 +120,27 @@ body {
   font-weight: 400;
 }
 
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-dark);
+  cursor: pointer;
+  padding: 8px;
+  margin-right: 16px;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-toggle:hover {
+  color: var(--blue-primary);
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+}
+
 .nav-menu {
   display: flex;
   gap: 40px;
@@ -1012,8 +1033,20 @@ body {
 
 .industries-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: 1fr;
   gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .industries-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .industries-grid {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
 }
 
 .industry-card {
@@ -1343,9 +1376,21 @@ body {
 
 .testimonials-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: 1fr;
   gap: 32px;
   margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
 }
 
 .testimonial-card {
@@ -1896,7 +1941,46 @@ body {
 
 @media (max-width: 768px) {
   .nav-menu {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 80px;
+    left: 24px;
+    right: 24px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+    gap: 4px;
+    z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .nav-menu.active {
+    max-height: 500px;
+    opacity: 1;
+    padding: 12px;
+  }
+
+  .nav-menu li {
+    width: 100%;
+  }
+
+  .nav-menu a {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    text-align: left;
+    border-radius: 8px;
+  }
+
+  .nav-menu a:hover {
+    background: rgba(91, 141, 238, 0.08);
+    transform: translateY(0);
   }
 
   .hero-title {

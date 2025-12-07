@@ -1,6 +1,34 @@
 console.log('Website loaded successfully!');
 
 document.addEventListener('DOMContentLoaded', () => {
+  const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+  const navMenu = document.querySelector('.nav-menu');
+  const menuIcon = document.querySelector('.menu-icon');
+  const closeIcon = document.querySelector('.close-icon');
+
+  if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+
+      if (navMenu.classList.contains('active')) {
+        menuIcon.style.display = 'none';
+        closeIcon.style.display = 'block';
+      } else {
+        menuIcon.style.display = 'block';
+        closeIcon.style.display = 'none';
+      }
+    });
+
+    const navLinks = document.querySelectorAll('.nav-menu a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        menuIcon.style.display = 'block';
+        closeIcon.style.display = 'none';
+      });
+    });
+  }
+
   const pricingButtons = document.querySelectorAll('.pricing-button');
   const pricingCards = document.querySelectorAll('.pricing-card');
 
